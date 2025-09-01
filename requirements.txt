@@ -1,0 +1,16 @@
+# Core deep learning framework
+tensorflow>=2.9.0
+keras>=2.9.0
+
+# Image processing
+opencv-python>=4.8.0
+Pillow>=9.5.0
+
+# Math & scientific
+numpy>=1.23.0
+scipy>=1.10.0
+
+# Evaluation / ML helpers
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
