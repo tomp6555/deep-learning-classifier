@@ -95,8 +95,6 @@ train
       ├── image_4.jpg
       └── ...
 
-```
-
 #### Run training script:
 1. **Save the script**: Put `classifier.py` in your working directory.
 2. **Configure dataset path**: Edit `classifier.py` to set a `data_directory` variable.
