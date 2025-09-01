@@ -101,8 +101,7 @@ train
 
 ```bash
 python classifier.py
-```
-The script should load the data, build the model, train it, and save the trained weights to `classifier_model.h5`
+``` The script should load the data, build the model, train it, and save the trained weights to `classifier_model.h5`
 ---
 
 ### Using the Trained Model for Analysis
@@ -136,7 +135,6 @@ The script will:
 * **Dataset Expansion:** More diverse training data improves performance.
 * **Extensions:** Move from classification to detection/segmentation (YOLO, U‑Net, etc.).
 
----
 ---
 
 ## 6. Troubleshooting
