@@ -83,7 +83,7 @@ Use the **classifier.py** script. This handles data loading, augmentation, model
 #### Dataset Structure
 
 Organize images into directories by class name. Replace `your_dataset_folder` with the actual path in classifier.py (for example, `./dataset`)
-
+'''
 your_dataset_folder/
 train
   ├── good/
@@ -94,7 +94,7 @@ train
       ├── image_3.jpg
       ├── image_4.jpg
       └── ...
-
+'''
 #### Run training script:
 1. **Save the script**: Put `classifier.py` in your working directory.
 2. **Configure dataset path**: Edit `classifier.py` to set a `data_directory` variable.
@@ -117,9 +117,6 @@ Ensure you have the classifier_model.h5 file (generated from training) is in the
 1. **Save the script**: Put `analysis.py` in your working directory.
 2. **Update `input_image_path`**: In the script, point to the image you want to analyze.
 
-```bash
-python analysis.py --image path/to/image.jpg
-```
 
 The script will:
 
